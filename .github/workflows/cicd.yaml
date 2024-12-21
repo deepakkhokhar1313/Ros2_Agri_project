@@ -52,8 +52,7 @@ jobs:
           docker run \
             --rm \
             ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:test bash -c "source /opt/ros/jazzy/setup.bash && source /root/ros2_ws/install/setup.bash && colcon test"
-      
-            
+         
       # Step 6: Push the Docker image after tests are passed 
       - name: Build and push Docker image
         if: ${{ success() }}
