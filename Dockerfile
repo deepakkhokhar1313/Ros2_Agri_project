@@ -41,8 +41,8 @@ RUN mkdir -p /root/ros2_ws/src
 
 # Copy the source code into the ROS2 workspace
 RUN cp -r src /root/ros2_ws/src
-RUN cp -r config /root/ros2_ws/config
-RUN cp -r data /root/ros2_ws/data
+RUN cp -r config /root/ros2_ws/src
+RUN cp -r data /root/ros2_ws/src
 
 # Add the ROS2 setup script and conda activation to .bashrc
 RUN echo "source /opt/ros/$ROS_DISTRO/setup.bash" >> /root/.bashrc
