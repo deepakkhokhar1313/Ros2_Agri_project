@@ -1,14 +1,3 @@
-i want to do an major project
-my goal will be: I want to make make an mobile robotic arm for an farm field of dragon fruit. My goal is that robot to roam in the farm field to reach to each dragon fruit plant to identifies leaves, fruits and harvest fruits using robotic arm.
-you should make the project file structure for me. You should also give me the project architecture in visualizing way to me.
-along with this write the whole project code for me including ros2 and robot model and world model file code.
-technologies that I want to use:
-ros2 framework to control robot like navigation etc
-python programing language in ros2
-I want to train robotic arm to harvest fruit using RL
-I want autonomous navigation of robot in my local environment of farm.
-
-
 Archtecture:
 dragonfruit_farm_robot/
 ├── src/
