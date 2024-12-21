@@ -42,8 +42,8 @@ jobs:
           push: false #set true to push
           platforms: linux/amd64,linux/arm64 # Target architectures for the image build
           tags: |
-            ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:test
-            ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:${{ github.run_number }}-test
+            ghcr.io/${{ github.repository_owner }}/ros2_agri_project:test
+            ghcr.io/${{ github.repository_owner }}/ros2_agri_project:${{ github.run_number }}-test
           build-args: |
             ROS_DISTRO=jazzy # Pass ROS distribution name as an argument to the build
       # Step 5: Run basic tests
@@ -51,7 +51,7 @@ jobs:
         run: |
           docker run \
             --rm \
-            ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:test bash -c "source /opt/ros/jazzy/setup.bash && source /root/ros2_ws/install/setup.bash && colcon test"
+            ghcr.io/${{ github.repository_owner }}/ros2_agri_project:test bash -c "source /opt/ros/jazzy/setup.bash && source /root/ros2_ws/install/setup.bash && colcon test"
          
       # Step 6: Push the Docker image after tests are passed 
       - name: Build and push Docker image
@@ -61,7 +61,7 @@ jobs:
           push: true #set true to push
         #   platforms: linux/amd64,linux/arm64 # Target architectures for the image build
           tags: |
-            ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:latest
-            ghcr.io/${{ github.repository_owner }}/Ros2_agri_project:${{ github.run_number }}
+            ghcr.io/${{ github.repository_owner }}/ros2_agri_project:latest
+            ghcr.io/${{ github.repository_owner }}/ros2_agri_project:${{ github.run_number }}
           build-args: |
             ROS_DISTRO=jazzy # Pass ROS distribution name as an argument to the build
