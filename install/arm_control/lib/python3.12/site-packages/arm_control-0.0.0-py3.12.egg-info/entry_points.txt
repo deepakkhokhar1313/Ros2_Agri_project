@@ -1,0 +1,4 @@
+[console_scripts]
+arm_action_server_node = arm_control.arm_action_server:main
+arm_controller_node = arm_control.arm_controller:main
+arm_rl_training_node = arm_control.arm_rl_training:main

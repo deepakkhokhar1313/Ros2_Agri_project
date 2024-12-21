@@ -1,0 +1,27 @@
+[3.225s] Invoking command in '/home/deepak/ros2_ws/src/Urdf': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/Urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Urdf build --build-base /home/deepak/ros2_ws/build/Urdf/build install --record /home/deepak/ros2_ws/build/Urdf/install.log --single-version-externally-managed install_data
+[3.761s] running egg_info
+[3.762s] creating ../../build/Urdf/Urdf.egg-info
+[3.797s] writing ../../build/Urdf/Urdf.egg-info/PKG-INFO
+[3.797s] writing dependency_links to ../../build/Urdf/Urdf.egg-info/dependency_links.txt
+[3.798s] writing requirements to ../../build/Urdf/Urdf.egg-info/requires.txt
+[3.800s] writing top-level names to ../../build/Urdf/Urdf.egg-info/top_level.txt
+[3.800s] writing manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+[3.880s] reading manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+[3.881s] writing manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.885s] running build_py
+[3.886s] creating /home/deepak/ros2_ws/build/Urdf/build
+[3.886s] creating /home/deepak/ros2_ws/build/Urdf/build/lib
+[3.886s] creating /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf
+[3.886s] copying Urdf/__init__.py -> /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf
+[3.886s] running install
+[3.895s] running install_lib
+[3.938s] creating /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf
+[3.942s] copying /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf/__init__.py -> /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf
+[3.942s] byte-compiling /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf/__init__.py to __init__.cpython-312.pyc
+[3.943s] running install_data
+[3.943s] creating /home/deepak/ros2_ws/install/Urdf/share/ament_index
+[3.943s] creating /home/deepak/ros2_ws/install/Urdf/share/ament_index/resource_index
+[3.943s] creating /home/deepak/ros2_ws/install/Urdf/share/ament_index/resource_index/packages
+[3.945s] error: can't copy 'resource/Urdf': doesn't exist or not a regular file
+[3.989s] Invoked command in '/home/deepak/ros2_ws/src/Urdf' returned '1': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/Urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Urdf build --build-base /home/deepak/ros2_ws/build/Urdf/build install --record /home/deepak/ros2_ws/build/Urdf/install.log --single-version-externally-managed install_data

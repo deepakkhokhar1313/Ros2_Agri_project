@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/Launch/Launch.egg-info
+writing ../../build/Launch/Launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/Launch/Launch.egg-info/dependency_links.txt
+writing requirements to ../../build/Launch/Launch.egg-info/requires.txt
+writing top-level names to ../../build/Launch/Launch.egg-info/top_level.txt
+writing manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+reading manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/Launch/build
+creating /home/deepak/ros2_ws/build/Launch/build/lib
+creating /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+copying Launch/robot_launch.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+copying Launch/__init__.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+copying Launch/simulation_launch.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/__init__.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/robot_launch.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/simulation_launch.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/robot_launch.py to robot_launch.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/simulation_launch.py to simulation_launch.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/Launch/share/ament_index
+creating /home/deepak/ros2_ws/install/Launch/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/Launch/share/ament_index/resource_index/packages

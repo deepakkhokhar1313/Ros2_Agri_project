@@ -1,0 +1,32 @@
+[3.137s] Invoking command in '/home/deepak/ros2_ws/src/world': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/world build --build-base /home/deepak/ros2_ws/build/world/build install --record /home/deepak/ros2_ws/build/world/install.log --single-version-externally-managed install_data
+[4.223s] running egg_info
+[4.223s] creating ../../build/world/world.egg-info
+[4.223s] writing ../../build/world/world.egg-info/PKG-INFO
+[4.225s] writing dependency_links to ../../build/world/world.egg-info/dependency_links.txt
+[4.229s] writing requirements to ../../build/world/world.egg-info/requires.txt
+[4.230s] writing top-level names to ../../build/world/world.egg-info/top_level.txt
+[4.230s] writing manifest file '../../build/world/world.egg-info/SOURCES.txt'
+[4.230s] reading manifest file '../../build/world/world.egg-info/SOURCES.txt'
+[4.230s] writing manifest file '../../build/world/world.egg-info/SOURCES.txt'
+[4.231s] running build
+[4.231s] running build_py
+[4.231s] creating /home/deepak/ros2_ws/build/world/build
+[4.231s] creating /home/deepak/ros2_ws/build/world/build/lib
+[4.231s] creating /home/deepak/ros2_ws/build/world/build/lib/world
+[4.231s] copying world/__init__.py -> /home/deepak/ros2_ws/build/world/build/lib/world
+[4.232s] running install
+[4.232s] running install_lib
+[4.232s] creating /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world
+[4.236s] copying /home/deepak/ros2_ws/build/world/build/lib/world/__init__.py -> /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world
+[4.237s] byte-compiling /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world/__init__.py to __init__.cpython-312.pyc
+[4.237s] running install_data
+[4.241s] creating /home/deepak/ros2_ws/install/world/share/ament_index
+[4.242s] creating /home/deepak/ros2_ws/install/world/share/ament_index/resource_index
+[4.242s] creating /home/deepak/ros2_ws/install/world/share/ament_index/resource_index/packages
+[4.242s] copying resource/world -> /home/deepak/ros2_ws/install/world/share/ament_index/resource_index/packages
+[4.242s] copying package.xml -> /home/deepak/ros2_ws/install/world/share/world
+[4.242s] running install_egg_info
+[4.243s] Copying ../../build/world/world.egg-info to /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world-0.0.0-py3.12.egg-info
+[4.243s] running install_scripts
+[4.243s] writing list of installed files to '/home/deepak/ros2_ws/build/world/install.log'
+[4.332s] Invoked command in '/home/deepak/ros2_ws/src/world' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/world/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/world build --build-base /home/deepak/ros2_ws/build/world/build install --record /home/deepak/ros2_ws/build/world/install.log --single-version-externally-managed install_data

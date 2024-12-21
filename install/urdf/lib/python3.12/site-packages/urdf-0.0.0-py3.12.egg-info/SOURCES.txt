@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/urdf/urdf.egg-info/PKG-INFO
+../../build/urdf/urdf.egg-info/SOURCES.txt
+../../build/urdf/urdf.egg-info/dependency_links.txt
+../../build/urdf/urdf.egg-info/requires.txt
+../../build/urdf/urdf.egg-info/top_level.txt
+../../build/urdf/urdf.egg-info/zip-safe
+resource/urdf
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/__init__.py

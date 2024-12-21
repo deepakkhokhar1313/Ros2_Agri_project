@@ -1,0 +1,41 @@
+[3.132s] Invoking command in '/home/deepak/ros2_ws/src/utilities': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utilities build --build-base /home/deepak/ros2_ws/build/utilities/build install --record /home/deepak/ros2_ws/build/utilities/install.log --single-version-externally-managed install_data
+[3.630s] running egg_info
+[3.631s] creating ../../build/utilities/utilities.egg-info
+[3.669s] writing ../../build/utilities/utilities.egg-info/PKG-INFO
+[3.669s] writing dependency_links to ../../build/utilities/utilities.egg-info/dependency_links.txt
+[3.670s] writing entry points to ../../build/utilities/utilities.egg-info/entry_points.txt
+[3.670s] writing requirements to ../../build/utilities/utilities.egg-info/requires.txt
+[3.670s] writing top-level names to ../../build/utilities/utilities.egg-info/top_level.txt
+[3.670s] writing manifest file '../../build/utilities/utilities.egg-info/SOURCES.txt'
+[3.752s] reading manifest file '../../build/utilities/utilities.egg-info/SOURCES.txt'
+[3.753s] writing manifest file '../../build/utilities/utilities.egg-info/SOURCES.txt'
+[3.754s] running build
+[3.755s] running build_py
+[3.756s] creating /home/deepak/ros2_ws/build/utilities/build
+[3.757s] creating /home/deepak/ros2_ws/build/utilities/build/lib
+[3.758s] creating /home/deepak/ros2_ws/build/utilities/build/lib/utilities
+[3.759s] copying utilities/ros_utils.py -> /home/deepak/ros2_ws/build/utilities/build/lib/utilities
+[3.760s] copying utilities/__init__.py -> /home/deepak/ros2_ws/build/utilities/build/lib/utilities
+[3.761s] copying utilities/math_utils.py -> /home/deepak/ros2_ws/build/utilities/build/lib/utilities
+[3.761s] running install
+[3.785s] running install_lib
+[3.861s] creating /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities
+[3.864s] copying /home/deepak/ros2_ws/build/utilities/build/lib/utilities/math_utils.py -> /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities
+[3.865s] copying /home/deepak/ros2_ws/build/utilities/build/lib/utilities/__init__.py -> /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities
+[3.865s] copying /home/deepak/ros2_ws/build/utilities/build/lib/utilities/ros_utils.py -> /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities
+[3.865s] byte-compiling /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities/math_utils.py to math_utils.cpython-312.pyc
+[3.865s] byte-compiling /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities/__init__.py to __init__.cpython-312.pyc
+[3.866s] byte-compiling /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities/ros_utils.py to ros_utils.cpython-312.pyc
+[3.866s] running install_data
+[3.866s] creating /home/deepak/ros2_ws/install/utilities/share/ament_index
+[3.866s] creating /home/deepak/ros2_ws/install/utilities/share/ament_index/resource_index
+[3.866s] creating /home/deepak/ros2_ws/install/utilities/share/ament_index/resource_index/packages
+[3.867s] copying resource/utilities -> /home/deepak/ros2_ws/install/utilities/share/ament_index/resource_index/packages
+[3.867s] copying package.xml -> /home/deepak/ros2_ws/install/utilities/share/utilities
+[3.867s] running install_egg_info
+[3.907s] Copying ../../build/utilities/utilities.egg-info to /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities-0.0.0-py3.12.egg-info
+[3.909s] running install_scripts
+[4.320s] Installing math_utils_node script to /home/deepak/ros2_ws/install/utilities/lib/utilities
+[4.321s] Installing ros_utils_node script to /home/deepak/ros2_ws/install/utilities/lib/utilities
+[4.321s] writing list of installed files to '/home/deepak/ros2_ws/build/utilities/install.log'
+[4.404s] Invoked command in '/home/deepak/ros2_ws/src/utilities' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utilities build --build-base /home/deepak/ros2_ws/build/utilities/build install --record /home/deepak/ros2_ws/build/utilities/install.log --single-version-externally-managed install_data

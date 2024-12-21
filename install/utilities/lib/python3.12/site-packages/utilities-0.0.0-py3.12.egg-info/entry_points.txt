@@ -1,0 +1,3 @@
+[console_scripts]
+math_utils_node = utilities.math_utils:main
+ros_utils_node = utilities.ros_utils:main

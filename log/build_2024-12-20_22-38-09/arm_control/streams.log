@@ -1,0 +1,48 @@
+[3.181s] Invoking command in '/home/deepak/ros2_ws/src/arm_control': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_control build --build-base /home/deepak/ros2_ws/build/arm_control/build install --record /home/deepak/ros2_ws/build/arm_control/install.log --single-version-externally-managed install_data
+[3.667s] running egg_info
+[3.668s] creating ../../build/arm_control/arm_control.egg-info
+[3.705s] writing ../../build/arm_control/arm_control.egg-info/PKG-INFO
+[3.709s] writing dependency_links to ../../build/arm_control/arm_control.egg-info/dependency_links.txt
+[3.709s] writing entry points to ../../build/arm_control/arm_control.egg-info/entry_points.txt
+[3.709s] writing requirements to ../../build/arm_control/arm_control.egg-info/requires.txt
+[3.709s] writing top-level names to ../../build/arm_control/arm_control.egg-info/top_level.txt
+[3.710s] writing manifest file '../../build/arm_control/arm_control.egg-info/SOURCES.txt'
+[3.784s] reading manifest file '../../build/arm_control/arm_control.egg-info/SOURCES.txt'
+[3.785s] writing manifest file '../../build/arm_control/arm_control.egg-info/SOURCES.txt'
+[3.786s] running build
+[3.787s] running build_py
+[3.787s] creating /home/deepak/ros2_ws/build/arm_control/build
+[3.787s] creating /home/deepak/ros2_ws/build/arm_control/build/lib
+[3.787s] creating /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.788s] copying arm_control/__init__.py -> /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.788s] copying arm_control/arm_rl_training.py -> /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.789s] copying arm_control/arm_utils.py -> /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.790s] copying arm_control/arm_action_server.py -> /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.790s] copying arm_control/arm_controller.py -> /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control
+[3.792s] running install
+[3.804s] running install_lib
+[3.848s] creating /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.848s] copying /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control/__init__.py -> /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.853s] copying /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control/arm_rl_training.py -> /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.853s] copying /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control/arm_controller.py -> /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.853s] copying /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control/arm_utils.py -> /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.853s] copying /home/deepak/ros2_ws/build/arm_control/build/lib/arm_control/arm_action_server.py -> /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control
+[3.853s] byte-compiling /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control/__init__.py to __init__.cpython-312.pyc
+[3.854s] byte-compiling /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control/arm_rl_training.py to arm_rl_training.cpython-312.pyc
+[3.854s] byte-compiling /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control/arm_controller.py to arm_controller.cpython-312.pyc
+[3.854s] byte-compiling /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control/arm_utils.py to arm_utils.cpython-312.pyc
+[3.854s] byte-compiling /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control/arm_action_server.py to arm_action_server.cpython-312.pyc
+[3.854s] running install_data
+[3.854s] creating /home/deepak/ros2_ws/install/arm_control/share/ament_index
+[3.855s] creating /home/deepak/ros2_ws/install/arm_control/share/ament_index/resource_index
+[3.855s] creating /home/deepak/ros2_ws/install/arm_control/share/ament_index/resource_index/packages
+[3.855s] copying resource/arm_control -> /home/deepak/ros2_ws/install/arm_control/share/ament_index/resource_index/packages
+[3.855s] copying package.xml -> /home/deepak/ros2_ws/install/arm_control/share/arm_control
+[3.855s] running install_egg_info
+[3.894s] Copying ../../build/arm_control/arm_control.egg-info to /home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages/arm_control-0.0.0-py3.12.egg-info
+[3.899s] running install_scripts
+[4.176s] Installing arm_action_server_node script to /home/deepak/ros2_ws/install/arm_control/lib/arm_control
+[4.178s] Installing arm_controller_node script to /home/deepak/ros2_ws/install/arm_control/lib/arm_control
+[4.180s] Installing arm_rl_training_node script to /home/deepak/ros2_ws/install/arm_control/lib/arm_control
+[4.185s] writing list of installed files to '/home/deepak/ros2_ws/build/arm_control/install.log'
+[4.289s] Invoked command in '/home/deepak/ros2_ws/src/arm_control' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/arm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/arm_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_control build --build-base /home/deepak/ros2_ws/build/arm_control/build install --record /home/deepak/ros2_ws/build/arm_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/world/world.egg-info
+writing ../../build/world/world.egg-info/PKG-INFO
+writing dependency_links to ../../build/world/world.egg-info/dependency_links.txt
+writing requirements to ../../build/world/world.egg-info/requires.txt
+writing top-level names to ../../build/world/world.egg-info/top_level.txt
+writing manifest file '../../build/world/world.egg-info/SOURCES.txt'
+reading manifest file '../../build/world/world.egg-info/SOURCES.txt'
+writing manifest file '../../build/world/world.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/world/build
+creating /home/deepak/ros2_ws/build/world/build/lib
+creating /home/deepak/ros2_ws/build/world/build/lib/world
+copying world/__init__.py -> /home/deepak/ros2_ws/build/world/build/lib/world
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world
+copying /home/deepak/ros2_ws/build/world/build/lib/world/__init__.py -> /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world
+byte-compiling /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/world/share/ament_index
+creating /home/deepak/ros2_ws/install/world/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/world/share/ament_index/resource_index/packages
+copying resource/world -> /home/deepak/ros2_ws/install/world/share/ament_index/resource_index/packages
+copying package.xml -> /home/deepak/ros2_ws/install/world/share/world
+running install_egg_info
+Copying ../../build/world/world.egg-info to /home/deepak/ros2_ws/install/world/lib/python3.12/site-packages/world-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/deepak/ros2_ws/build/world/install.log'

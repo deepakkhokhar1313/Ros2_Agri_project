@@ -1,0 +1,5 @@
+[console_scripts]
+camera_calibration_node = perception.camera_calibration:main
+data_collection_node = perception.data_collection:main
+image_processing_node = perception.image_processing:main
+object_detection_node = perception.object_detection:main

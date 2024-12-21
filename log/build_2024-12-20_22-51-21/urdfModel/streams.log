@@ -1,0 +1,32 @@
+[3.241s] Invoking command in '/home/deepak/ros2_ws/src/urdfModel': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/urdfModel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdfModel build --build-base /home/deepak/ros2_ws/build/urdfModel/build install --record /home/deepak/ros2_ws/build/urdfModel/install.log --single-version-externally-managed install_data
+[3.771s] running egg_info
+[3.772s] creating ../../build/urdfModel/urdfModel.egg-info
+[3.816s] writing ../../build/urdfModel/urdfModel.egg-info/PKG-INFO
+[3.817s] writing dependency_links to ../../build/urdfModel/urdfModel.egg-info/dependency_links.txt
+[3.820s] writing requirements to ../../build/urdfModel/urdfModel.egg-info/requires.txt
+[3.820s] writing top-level names to ../../build/urdfModel/urdfModel.egg-info/top_level.txt
+[3.821s] writing manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+[3.895s] reading manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+[3.895s] writing manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+[3.896s] running build
+[3.896s] running build_py
+[3.896s] creating /home/deepak/ros2_ws/build/urdfModel/build
+[3.897s] creating /home/deepak/ros2_ws/build/urdfModel/build/lib
+[3.899s] creating /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel
+[3.899s] copying urdfModel/__init__.py -> /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel
+[3.905s] running install
+[3.922s] running install_lib
+[3.961s] creating /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel
+[3.961s] copying /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel/__init__.py -> /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel
+[3.962s] byte-compiling /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel/__init__.py to __init__.cpython-312.pyc
+[3.962s] running install_data
+[3.962s] creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index
+[3.962s] creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index
+[3.963s] creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index/packages
+[3.964s] copying resource/urdfModel -> /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index/packages
+[3.965s] copying package.xml -> /home/deepak/ros2_ws/install/urdfModel/share/urdfModel
+[3.965s] running install_egg_info
+[4.003s] Copying ../../build/urdfModel/urdfModel.egg-info to /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel-0.0.0-py3.12.egg-info
+[4.023s] running install_scripts
+[4.312s] writing list of installed files to '/home/deepak/ros2_ws/build/urdfModel/install.log'
+[4.449s] Invoked command in '/home/deepak/ros2_ws/src/urdfModel' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/urdfModel/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdfModel build --build-base /home/deepak/ros2_ws/build/urdfModel/build install --record /home/deepak/ros2_ws/build/urdfModel/install.log --single-version-externally-managed install_data

@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/navigation/navigation.egg-info
+writing ../../build/navigation/navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/navigation/build
+creating /home/deepak/ros2_ws/build/navigation/build/lib
+creating /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+copying navigation/navigation_node.py -> /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+copying navigation/map_server.py -> /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+copying navigation/localization.py -> /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+copying navigation/__init__.py -> /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+copying navigation/path_planning.py -> /home/deepak/ros2_ws/build/navigation/build/lib/navigation
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+copying /home/deepak/ros2_ws/build/navigation/build/lib/navigation/localization.py -> /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+copying /home/deepak/ros2_ws/build/navigation/build/lib/navigation/__init__.py -> /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+copying /home/deepak/ros2_ws/build/navigation/build/lib/navigation/path_planning.py -> /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+copying /home/deepak/ros2_ws/build/navigation/build/lib/navigation/navigation_node.py -> /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+copying /home/deepak/ros2_ws/build/navigation/build/lib/navigation/map_server.py -> /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation
+byte-compiling /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation/localization.py to localization.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation/path_planning.py to path_planning.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation/navigation_node.py to navigation_node.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation/map_server.py to map_server.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/navigation/share/ament_index
+creating /home/deepak/ros2_ws/install/navigation/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+copying resource/navigation -> /home/deepak/ros2_ws/install/navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/deepak/ros2_ws/install/navigation/share/navigation
+running install_egg_info
+Copying ../../build/navigation/navigation.egg-info to /home/deepak/ros2_ws/install/navigation/lib/python3.12/site-packages/navigation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing localization_node script to /home/deepak/ros2_ws/install/navigation/lib/navigation
+Installing map_server_node script to /home/deepak/ros2_ws/install/navigation/lib/navigation
+Installing navigation_node script to /home/deepak/ros2_ws/install/navigation/lib/navigation
+Installing path_planning_node script to /home/deepak/ros2_ws/install/navigation/lib/navigation
+writing list of installed files to '/home/deepak/ros2_ws/build/navigation/install.log'

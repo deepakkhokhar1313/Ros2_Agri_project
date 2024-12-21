@@ -1,0 +1,49 @@
+[3.160s] Invoking command in '/home/deepak/ros2_ws/src/perception': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/deepak/ros2_ws/build/perception/build install --record /home/deepak/ros2_ws/build/perception/install.log --single-version-externally-managed install_data
+[4.299s] running egg_info
+[4.299s] creating ../../build/perception/perception.egg-info
+[4.299s] writing ../../build/perception/perception.egg-info/PKG-INFO
+[4.299s] writing dependency_links to ../../build/perception/perception.egg-info/dependency_links.txt
+[4.300s] writing entry points to ../../build/perception/perception.egg-info/entry_points.txt
+[4.303s] writing requirements to ../../build/perception/perception.egg-info/requires.txt
+[4.303s] writing top-level names to ../../build/perception/perception.egg-info/top_level.txt
+[4.303s] writing manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[4.303s] reading manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[4.311s] writing manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[4.311s] running build
+[4.312s] running build_py
+[4.312s] creating /home/deepak/ros2_ws/build/perception/build
+[4.312s] creating /home/deepak/ros2_ws/build/perception/build/lib
+[4.312s] creating /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.313s] copying perception/object_detection.py -> /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.313s] copying perception/image_processing.py -> /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.313s] copying perception/data_collection.py -> /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.313s] copying perception/camera_calibration.py -> /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.313s] copying perception/__init__.py -> /home/deepak/ros2_ws/build/perception/build/lib/perception
+[4.314s] running install
+[4.314s] running install_lib
+[4.314s] creating /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.314s] copying /home/deepak/ros2_ws/build/perception/build/lib/perception/__init__.py -> /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.315s] copying /home/deepak/ros2_ws/build/perception/build/lib/perception/object_detection.py -> /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.317s] copying /home/deepak/ros2_ws/build/perception/build/lib/perception/image_processing.py -> /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.318s] copying /home/deepak/ros2_ws/build/perception/build/lib/perception/camera_calibration.py -> /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.318s] copying /home/deepak/ros2_ws/build/perception/build/lib/perception/data_collection.py -> /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception
+[4.318s] byte-compiling /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception/__init__.py to __init__.cpython-312.pyc
+[4.318s] byte-compiling /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception/object_detection.py to object_detection.cpython-312.pyc
+[4.319s] byte-compiling /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception/image_processing.py to image_processing.cpython-312.pyc
+[4.319s] byte-compiling /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception/camera_calibration.py to camera_calibration.cpython-312.pyc
+[4.319s] byte-compiling /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception/data_collection.py to data_collection.cpython-312.pyc
+[4.320s] running install_data
+[4.321s] creating /home/deepak/ros2_ws/install/perception/share/ament_index
+[4.321s] creating /home/deepak/ros2_ws/install/perception/share/ament_index/resource_index
+[4.321s] creating /home/deepak/ros2_ws/install/perception/share/ament_index/resource_index/packages
+[4.321s] copying resource/perception -> /home/deepak/ros2_ws/install/perception/share/ament_index/resource_index/packages
+[4.321s] copying package.xml -> /home/deepak/ros2_ws/install/perception/share/perception
+[4.322s] running install_egg_info
+[4.322s] Copying ../../build/perception/perception.egg-info to /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception-0.0.0-py3.12.egg-info
+[4.322s] running install_scripts
+[4.322s] Installing camera_calibration_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.322s] Installing data_collection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.323s] Installing image_processing_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.327s] Installing object_detection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.328s] writing list of installed files to '/home/deepak/ros2_ws/build/perception/install.log'
+[4.378s] Invoked command in '/home/deepak/ros2_ws/src/perception' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/deepak/ros2_ws/build/perception/build install --record /home/deepak/ros2_ws/build/perception/install.log --single-version-externally-managed install_data

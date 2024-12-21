@@ -1,0 +1,44 @@
+[3.162s] Invoking command in '/home/deepak/ros2_ws/src/core': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/deepak/ros2_ws/build/core/build install --record /home/deepak/ros2_ws/build/core/install.log --single-version-externally-managed install_data
+[3.703s] running egg_info
+[3.705s] creating ../../build/core/core.egg-info
+[3.748s] writing ../../build/core/core.egg-info/PKG-INFO
+[3.749s] writing dependency_links to ../../build/core/core.egg-info/dependency_links.txt
+[3.752s] writing entry points to ../../build/core/core.egg-info/entry_points.txt
+[3.752s] writing requirements to ../../build/core/core.egg-info/requires.txt
+[3.753s] writing top-level names to ../../build/core/core.egg-info/top_level.txt
+[3.753s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[3.832s] reading manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[3.833s] writing manifest file '../../build/core/core.egg-info/SOURCES.txt'
+[3.833s] running build
+[3.833s] running build_py
+[3.834s] creating /home/deepak/ros2_ws/build/core/build
+[3.834s] creating /home/deepak/ros2_ws/build/core/build/lib
+[3.837s] creating /home/deepak/ros2_ws/build/core/build/lib/core
+[3.838s] copying core/__init__.py -> /home/deepak/ros2_ws/build/core/build/lib/core
+[3.838s] copying core/parameters.py -> /home/deepak/ros2_ws/build/core/build/lib/core
+[3.838s] copying core/robot_control.py -> /home/deepak/ros2_ws/build/core/build/lib/core
+[3.838s] copying core/state_machine.py -> /home/deepak/ros2_ws/build/core/build/lib/core
+[3.838s] running install
+[3.851s] running install_lib
+[3.887s] creating /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core
+[3.888s] copying /home/deepak/ros2_ws/build/core/build/lib/core/state_machine.py -> /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core
+[3.888s] copying /home/deepak/ros2_ws/build/core/build/lib/core/parameters.py -> /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core
+[3.888s] copying /home/deepak/ros2_ws/build/core/build/lib/core/robot_control.py -> /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core
+[3.888s] copying /home/deepak/ros2_ws/build/core/build/lib/core/__init__.py -> /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core
+[3.889s] byte-compiling /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core/state_machine.py to state_machine.cpython-312.pyc
+[3.890s] byte-compiling /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core/parameters.py to parameters.cpython-312.pyc
+[3.890s] byte-compiling /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core/robot_control.py to robot_control.cpython-312.pyc
+[3.890s] byte-compiling /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core/__init__.py to __init__.cpython-312.pyc
+[3.891s] running install_data
+[3.891s] creating /home/deepak/ros2_ws/install/core/share/ament_index
+[3.891s] creating /home/deepak/ros2_ws/install/core/share/ament_index/resource_index
+[3.892s] creating /home/deepak/ros2_ws/install/core/share/ament_index/resource_index/packages
+[3.892s] copying resource/core -> /home/deepak/ros2_ws/install/core/share/ament_index/resource_index/packages
+[3.896s] copying package.xml -> /home/deepak/ros2_ws/install/core/share/core
+[3.896s] running install_egg_info
+[3.950s] Copying ../../build/core/core.egg-info to /home/deepak/ros2_ws/install/core/lib/python3.12/site-packages/core-0.0.0-py3.12.egg-info
+[3.958s] running install_scripts
+[4.217s] Installing robot_control_node script to /home/deepak/ros2_ws/install/core/lib/core
+[4.224s] Installing state_machine_node script to /home/deepak/ros2_ws/install/core/lib/core
+[4.225s] writing list of installed files to '/home/deepak/ros2_ws/build/core/install.log'
+[4.382s] Invoked command in '/home/deepak/ros2_ws/src/core' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/core build --build-base /home/deepak/ros2_ws/build/core/build install --record /home/deepak/ros2_ws/build/core/install.log --single-version-externally-managed install_data

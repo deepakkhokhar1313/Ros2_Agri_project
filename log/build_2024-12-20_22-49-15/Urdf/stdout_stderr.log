@@ -1,0 +1,25 @@
+running egg_info
+creating ../../build/Urdf/Urdf.egg-info
+writing ../../build/Urdf/Urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/Urdf/Urdf.egg-info/dependency_links.txt
+writing requirements to ../../build/Urdf/Urdf.egg-info/requires.txt
+writing top-level names to ../../build/Urdf/Urdf.egg-info/top_level.txt
+writing manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+reading manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/Urdf/Urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/Urdf/build
+creating /home/deepak/ros2_ws/build/Urdf/build/lib
+creating /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf
+copying Urdf/__init__.py -> /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf
+copying /home/deepak/ros2_ws/build/Urdf/build/lib/Urdf/__init__.py -> /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf
+byte-compiling /home/deepak/ros2_ws/install/Urdf/lib/python3.12/site-packages/Urdf/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/Urdf/share/ament_index
+creating /home/deepak/ros2_ws/install/Urdf/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/Urdf/share/ament_index/resource_index/packages
+error: can't copy 'resource/Urdf': doesn't exist or not a regular file

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: arm-control
+Version: 0.0.0
+Summary: Ros2 Package for Arm Controller
+Maintainer: deepak
+Maintainer-email: deepakkhokhar1313@gmail.com
+License: Apache 2.0

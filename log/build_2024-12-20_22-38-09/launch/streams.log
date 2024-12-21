@@ -1,0 +1,38 @@
+[3.157s] Invoking command in '/home/deepak/ros2_ws/src/launch': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch build --build-base /home/deepak/ros2_ws/build/launch/build install --record /home/deepak/ros2_ws/build/launch/install.log --single-version-externally-managed install_data
+[3.680s] running egg_info
+[3.680s] creating ../../build/launch/launch.egg-info
+[3.715s] writing ../../build/launch/launch.egg-info/PKG-INFO
+[3.716s] writing dependency_links to ../../build/launch/launch.egg-info/dependency_links.txt
+[3.716s] writing requirements to ../../build/launch/launch.egg-info/requires.txt
+[3.716s] writing top-level names to ../../build/launch/launch.egg-info/top_level.txt
+[3.716s] writing manifest file '../../build/launch/launch.egg-info/SOURCES.txt'
+[3.796s] reading manifest file '../../build/launch/launch.egg-info/SOURCES.txt'
+[3.800s] writing manifest file '../../build/launch/launch.egg-info/SOURCES.txt'
+[3.800s] running build
+[3.800s] running build_py
+[3.801s] creating /home/deepak/ros2_ws/build/launch/build
+[3.801s] creating /home/deepak/ros2_ws/build/launch/build/lib
+[3.801s] creating /home/deepak/ros2_ws/build/launch/build/lib/launch
+[3.801s] copying launch/robot_launch.py -> /home/deepak/ros2_ws/build/launch/build/lib/launch
+[3.801s] copying launch/__init__.py -> /home/deepak/ros2_ws/build/launch/build/lib/launch
+[3.801s] copying launch/simulation_launch.py -> /home/deepak/ros2_ws/build/launch/build/lib/launch
+[3.802s] running install
+[3.813s] running install_lib
+[3.857s] creating /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch
+[3.857s] copying /home/deepak/ros2_ws/build/launch/build/lib/launch/robot_launch.py -> /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch
+[3.858s] copying /home/deepak/ros2_ws/build/launch/build/lib/launch/simulation_launch.py -> /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch
+[3.858s] copying /home/deepak/ros2_ws/build/launch/build/lib/launch/__init__.py -> /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch
+[3.862s] byte-compiling /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch/robot_launch.py to robot_launch.cpython-312.pyc
+[3.863s] byte-compiling /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch/simulation_launch.py to simulation_launch.cpython-312.pyc
+[3.863s] byte-compiling /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch/__init__.py to __init__.cpython-312.pyc
+[3.864s] running install_data
+[3.865s] creating /home/deepak/ros2_ws/install/launch/share/ament_index
+[3.865s] creating /home/deepak/ros2_ws/install/launch/share/ament_index/resource_index
+[3.865s] creating /home/deepak/ros2_ws/install/launch/share/ament_index/resource_index/packages
+[3.865s] copying resource/launch -> /home/deepak/ros2_ws/install/launch/share/ament_index/resource_index/packages
+[3.865s] copying package.xml -> /home/deepak/ros2_ws/install/launch/share/launch
+[3.865s] running install_egg_info
+[3.902s] Copying ../../build/launch/launch.egg-info to /home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages/launch-0.0.0-py3.12.egg-info
+[3.903s] running install_scripts
+[4.190s] writing list of installed files to '/home/deepak/ros2_ws/build/launch/install.log'
+[4.340s] Invoked command in '/home/deepak/ros2_ws/src/launch' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch build --build-base /home/deepak/ros2_ws/build/launch/build install --record /home/deepak/ros2_ws/build/launch/install.log --single-version-externally-managed install_data

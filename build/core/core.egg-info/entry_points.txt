@@ -1,0 +1,3 @@
+[console_scripts]
+robot_control_node = core.robot_control:main
+state_machine_node = core.state_machine:main

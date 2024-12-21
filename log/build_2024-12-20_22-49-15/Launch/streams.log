@@ -1,0 +1,32 @@
+[3.252s] Invoking command in '/home/deepak/ros2_ws/src/Launch': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/Launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Launch build --build-base /home/deepak/ros2_ws/build/Launch/build install --record /home/deepak/ros2_ws/build/Launch/install.log --single-version-externally-managed install_data
+[3.804s] running egg_info
+[3.804s] creating ../../build/Launch/Launch.egg-info
+[3.849s] writing ../../build/Launch/Launch.egg-info/PKG-INFO
+[3.852s] writing dependency_links to ../../build/Launch/Launch.egg-info/dependency_links.txt
+[3.852s] writing requirements to ../../build/Launch/Launch.egg-info/requires.txt
+[3.852s] writing top-level names to ../../build/Launch/Launch.egg-info/top_level.txt
+[3.853s] writing manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+[3.933s] reading manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+[3.934s] writing manifest file '../../build/Launch/Launch.egg-info/SOURCES.txt'
+[3.934s] running build
+[3.934s] running build_py
+[3.937s] creating /home/deepak/ros2_ws/build/Launch/build
+[3.937s] creating /home/deepak/ros2_ws/build/Launch/build/lib
+[3.938s] creating /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+[3.938s] copying Launch/robot_launch.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+[3.938s] copying Launch/__init__.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+[3.938s] copying Launch/simulation_launch.py -> /home/deepak/ros2_ws/build/Launch/build/lib/Launch
+[3.939s] running install
+[3.953s] running install_lib
+[3.997s] creating /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+[4.001s] error: can't copy 'resource/Launch': doesn't exist or not a regular file
+[4.001s] copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/__init__.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+[4.002s] copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/robot_launch.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+[4.002s] copying /home/deepak/ros2_ws/build/Launch/build/lib/Launch/simulation_launch.py -> /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch
+[4.002s] byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/__init__.py to __init__.cpython-312.pyc
+[4.002s] byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/robot_launch.py to robot_launch.cpython-312.pyc
+[4.002s] byte-compiling /home/deepak/ros2_ws/install/Launch/lib/python3.12/site-packages/Launch/simulation_launch.py to simulation_launch.cpython-312.pyc
+[4.003s] running install_data
+[4.003s] creating /home/deepak/ros2_ws/install/Launch/share/ament_index
+[4.003s] creating /home/deepak/ros2_ws/install/Launch/share/ament_index/resource_index
+[4.003s] creating /home/deepak/ros2_ws/install/Launch/share/ament_index/resource_index/packages

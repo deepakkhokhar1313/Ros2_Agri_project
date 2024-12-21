@@ -1,0 +1,21 @@
+[3.163s] Invoking command in '/home/deepak/ros2_ws/src/utilities': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/utilities build --build-base /home/deepak/ros2_ws/build/utilities/build install --record /home/deepak/ros2_ws/build/utilities/install.log --single-version-externally-managed install_data
+[3.698s] running egg_info
+[3.746s] writing ../../build/utilities/utilities.egg-info/PKG-INFO
+[3.747s] writing dependency_links to ../../build/utilities/utilities.egg-info/dependency_links.txt
+[3.749s] writing entry points to ../../build/utilities/utilities.egg-info/entry_points.txt
+[3.750s] writing requirements to ../../build/utilities/utilities.egg-info/requires.txt
+[3.754s] writing top-level names to ../../build/utilities/utilities.egg-info/top_level.txt
+[3.858s] reading manifest file '../../build/utilities/utilities.egg-info/SOURCES.txt'
+[3.858s] writing manifest file '../../build/utilities/utilities.egg-info/SOURCES.txt'
+[3.858s] running build
+[3.858s] running build_py
+[3.858s] running install
+[3.880s] running install_lib
+[3.933s] running install_data
+[3.934s] running install_egg_info
+[3.992s] removing '/home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities-0.0.0-py3.12.egg-info' (and everything under it)
+[3.992s] Copying ../../build/utilities/utilities.egg-info to /home/deepak/ros2_ws/install/utilities/lib/python3.12/site-packages/utilities-0.0.0-py3.12.egg-info
+[3.994s] running install_scripts
+[4.195s] Installing math_utils_node script to /home/deepak/ros2_ws/install/utilities/lib/utilities
+[4.195s] Installing ros_utils_node script to /home/deepak/ros2_ws/install/utilities/lib/utilities
+[4.195s] writing list of installed files to '/home/deepak/ros2_ws/build/utilities/install.log'

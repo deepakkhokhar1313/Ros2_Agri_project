@@ -1,0 +1,5 @@
+[console_scripts]
+localization_node = navigation.localization:main
+map_server_node = navigation.map_server:main
+navigation_node = navigation.navigation_node:main
+path_planning_node = navigation.path_planning:main

@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/launchfile/launchfile.egg-info
+writing ../../build/launchfile/launchfile.egg-info/PKG-INFO
+writing dependency_links to ../../build/launchfile/launchfile.egg-info/dependency_links.txt
+writing requirements to ../../build/launchfile/launchfile.egg-info/requires.txt
+writing top-level names to ../../build/launchfile/launchfile.egg-info/top_level.txt
+writing manifest file '../../build/launchfile/launchfile.egg-info/SOURCES.txt'
+reading manifest file '../../build/launchfile/launchfile.egg-info/SOURCES.txt'
+writing manifest file '../../build/launchfile/launchfile.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/launchfile/build
+creating /home/deepak/ros2_ws/build/launchfile/build/lib
+creating /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile
+copying launchfile/robot_launch.py -> /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile
+copying launchfile/__init__.py -> /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile
+copying launchfile/simulation_launch.py -> /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile
+copying /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile/simulation_launch.py -> /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile
+copying /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile/__init__.py -> /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile
+copying /home/deepak/ros2_ws/build/launchfile/build/lib/launchfile/robot_launch.py -> /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile
+byte-compiling /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile/simulation_launch.py to simulation_launch.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile/robot_launch.py to robot_launch.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/launchfile/share/ament_index
+creating /home/deepak/ros2_ws/install/launchfile/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/launchfile/share/ament_index/resource_index/packages
+copying resource/launchfile -> /home/deepak/ros2_ws/install/launchfile/share/ament_index/resource_index/packages
+copying package.xml -> /home/deepak/ros2_ws/install/launchfile/share/launchfile
+running install_egg_info
+Copying ../../build/launchfile/launchfile.egg-info to /home/deepak/ros2_ws/install/launchfile/lib/python3.12/site-packages/launchfile-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/deepak/ros2_ws/build/launchfile/install.log'

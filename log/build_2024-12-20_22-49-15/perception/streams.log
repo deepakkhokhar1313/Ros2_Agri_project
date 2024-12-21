@@ -1,0 +1,23 @@
+[3.184s] Invoking command in '/home/deepak/ros2_ws/src/perception': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/deepak/ros2_ws/build/perception/build install --record /home/deepak/ros2_ws/build/perception/install.log --single-version-externally-managed install_data
+[3.753s] running egg_info
+[3.791s] writing ../../build/perception/perception.egg-info/PKG-INFO
+[3.791s] writing dependency_links to ../../build/perception/perception.egg-info/dependency_links.txt
+[3.792s] writing entry points to ../../build/perception/perception.egg-info/entry_points.txt
+[3.792s] writing requirements to ../../build/perception/perception.egg-info/requires.txt
+[3.792s] writing top-level names to ../../build/perception/perception.egg-info/top_level.txt
+[3.884s] reading manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[3.884s] writing manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.885s] running build_py
+[3.885s] running install
+[3.895s] running install_lib
+[3.945s] running install_data
+[3.946s] running install_egg_info
+[3.988s] removing '/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception-0.0.0-py3.12.egg-info' (and everything under it)
+[3.989s] Copying ../../build/perception/perception.egg-info to /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception-0.0.0-py3.12.egg-info
+[3.999s] running install_scripts
+[4.196s] Installing camera_calibration_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.196s] Installing data_collection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.196s] Installing image_processing_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.197s] Installing object_detection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.197s] writing list of installed files to '/home/deepak/ros2_ws/build/perception/install.log'

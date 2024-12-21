@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/urdfModel/urdfModel.egg-info
+writing ../../build/urdfModel/urdfModel.egg-info/PKG-INFO
+writing dependency_links to ../../build/urdfModel/urdfModel.egg-info/dependency_links.txt
+writing requirements to ../../build/urdfModel/urdfModel.egg-info/requires.txt
+writing top-level names to ../../build/urdfModel/urdfModel.egg-info/top_level.txt
+writing manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+reading manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+writing manifest file '../../build/urdfModel/urdfModel.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/deepak/ros2_ws/build/urdfModel/build
+creating /home/deepak/ros2_ws/build/urdfModel/build/lib
+creating /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel
+copying urdfModel/__init__.py -> /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel
+running install
+running install_lib
+creating /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel
+copying /home/deepak/ros2_ws/build/urdfModel/build/lib/urdfModel/__init__.py -> /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel
+byte-compiling /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index
+creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index
+creating /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index/packages
+copying resource/urdfModel -> /home/deepak/ros2_ws/install/urdfModel/share/ament_index/resource_index/packages
+copying package.xml -> /home/deepak/ros2_ws/install/urdfModel/share/urdfModel
+running install_egg_info
+Copying ../../build/urdfModel/urdfModel.egg-info to /home/deepak/ros2_ws/install/urdfModel/lib/python3.12/site-packages/urdfModel-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/deepak/ros2_ws/build/urdfModel/install.log'

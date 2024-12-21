@@ -1,0 +1,19 @@
+[3.455s] Invoking command in '/home/deepak/ros2_ws/src/urdf': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/deepak/ros2_ws/build/urdf/build install --record /home/deepak/ros2_ws/build/urdf/install.log --single-version-externally-managed install_data
+[3.992s] running egg_info
+[4.035s] writing ../../build/urdf/urdf.egg-info/PKG-INFO
+[4.035s] writing dependency_links to ../../build/urdf/urdf.egg-info/dependency_links.txt
+[4.038s] writing requirements to ../../build/urdf/urdf.egg-info/requires.txt
+[4.039s] writing top-level names to ../../build/urdf/urdf.egg-info/top_level.txt
+[4.116s] reading manifest file '../../build/urdf/urdf.egg-info/SOURCES.txt'
+[4.117s] writing manifest file '../../build/urdf/urdf.egg-info/SOURCES.txt'
+[4.118s] running build
+[4.118s] running build_py
+[4.118s] running install
+[4.133s] running install_lib
+[4.175s] running install_data
+[4.175s] running install_egg_info
+[4.220s] removing '/home/deepak/ros2_ws/install/urdf/lib/python3.12/site-packages/urdf-0.0.0-py3.12.egg-info' (and everything under it)
+[4.220s] Copying ../../build/urdf/urdf.egg-info to /home/deepak/ros2_ws/install/urdf/lib/python3.12/site-packages/urdf-0.0.0-py3.12.egg-info
+[4.223s] running install_scripts
+[4.586s] writing list of installed files to '/home/deepak/ros2_ws/build/urdf/install.log'
+[4.750s] Invoked command in '/home/deepak/ros2_ws/src/urdf' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/deepak/ros2_ws/build/urdf/build install --record /home/deepak/ros2_ws/build/urdf/install.log --single-version-externally-managed install_data

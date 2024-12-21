@@ -1,0 +1,24 @@
+[3.281s] Invoking command in '/home/deepak/ros2_ws/src/perception': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/deepak/ros2_ws/build/perception/build install --record /home/deepak/ros2_ws/build/perception/install.log --single-version-externally-managed install_data
+[4.390s] running egg_info
+[4.391s] writing ../../build/perception/perception.egg-info/PKG-INFO
+[4.392s] writing dependency_links to ../../build/perception/perception.egg-info/dependency_links.txt
+[4.392s] writing entry points to ../../build/perception/perception.egg-info/entry_points.txt
+[4.392s] writing requirements to ../../build/perception/perception.egg-info/requires.txt
+[4.392s] writing top-level names to ../../build/perception/perception.egg-info/top_level.txt
+[4.392s] reading manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[4.392s] writing manifest file '../../build/perception/perception.egg-info/SOURCES.txt'
+[4.393s] running build
+[4.393s] running build_py
+[4.396s] running install
+[4.397s] running install_lib
+[4.397s] running install_data
+[4.397s] running install_egg_info
+[4.397s] removing '/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception-0.0.0-py3.12.egg-info' (and everything under it)
+[4.397s] Copying ../../build/perception/perception.egg-info to /home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages/perception-0.0.0-py3.12.egg-info
+[4.397s] running install_scripts
+[4.407s] Installing camera_calibration_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.407s] Installing data_collection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.408s] Installing image_processing_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.408s] Installing object_detection_node script to /home/deepak/ros2_ws/install/perception/lib/perception
+[4.408s] writing list of installed files to '/home/deepak/ros2_ws/build/perception/install.log'
+[4.492s] Invoked command in '/home/deepak/ros2_ws/src/perception' returned '0': CONDA_PROMPT_MODIFIER=(ros2) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/deepak/ros2_ws/build/perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/ros2_ws/install/perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/perception build --build-base /home/deepak/ros2_ws/build/perception/build install --record /home/deepak/ros2_ws/build/perception/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/launchfile/launchfile.egg-info/PKG-INFO
+../../build/launchfile/launchfile.egg-info/SOURCES.txt
+../../build/launchfile/launchfile.egg-info/dependency_links.txt
+../../build/launchfile/launchfile.egg-info/requires.txt
+../../build/launchfile/launchfile.egg-info/top_level.txt
+../../build/launchfile/launchfile.egg-info/zip-safe
+launchfile/__init__.py
+launchfile/robot_launch.py
+launchfile/simulation_launch.py
+resource/launchfile
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

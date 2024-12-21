@@ -1,0 +1,6 @@
+source;share/urdfmodel/hook/pythonpath.ps1
+source;share/urdfmodel/hook/pythonpath.dsv
+source;share/urdfmodel/hook/pythonpath.sh
+source;share/urdfmodel/hook/ament_prefix_path.ps1
+source;share/urdfmodel/hook/ament_prefix_path.dsv
+source;share/urdfmodel/hook/ament_prefix_path.sh
