@@ -43,11 +43,11 @@ dragonfruit_farm_robot/
 │   │   │   └── __init__.py
 │   │   ├── package.xml
 │   │   └── setup.py
-│   ├── launch/
+│   ├── launchfile/
 │   │   ├── robot_launch.py
 │   │   ├── simulation_launch.py
 │   │   └── __init__.py
-│   ├── urdf/
+│   ├── urdfmodel/
 │   │   ├── dragon_robot.urdf.xacro
 │   │   ├── dragon_robot.gazebo
 │   │   └── __init__.py
